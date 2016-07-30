@@ -1,0 +1,25 @@
+{
+  "name": "angular2-webpack-starter",
+  "description": "Angular 2 site template with Webpack",
+  "main": "",
+  "authors": [
+    "Jeff Noble"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular2",
+    "webpack",
+    "typescript"
+  ],
+  "homepage": "https://github.com/Savij/ng2-site-template",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
