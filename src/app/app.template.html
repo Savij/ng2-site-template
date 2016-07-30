@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -35,11 +35,11 @@
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
       </nav>
-
+<div class="container">
     <main>
       <router-outlet></router-outlet>
     </main>
-
-    <footer>
-      <span>Footer</span>
+</div>
+    <footer class="footer navbar-fixed-bottom">
+      <p class="text-muted">Footer</p>
     </footer>
